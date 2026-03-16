@@ -19,3 +19,10 @@ npm install
 npm run dev
 ```
 
+## GitHub Pages
+
+После пуша в `main` GitHub Actions автоматически соберёт и опубликует сайт.
+
+- Репозиторий: `https://github.com/TanyaKutuzova/KP`
+- Ссылка на сайт (Pages): `https://tanyakutuzova.github.io/KP/`
+

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA fallback: redirect any route to index.html
+      // while preserving the path in the hash, so BrowserRouter can render "/".
+      // If you later switch to HashRouter, this will still work.
+      (function () {
+        var l = window.location;
+        var newUrl = l.origin + '/KP/' + '#'+ l.pathname.replace('/KP', '') + l.search + l.hash;
+        window.location.replace(newUrl);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
